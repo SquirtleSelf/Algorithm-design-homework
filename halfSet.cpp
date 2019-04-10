@@ -18,7 +18,7 @@ int main() {
     int n;
     cout << "Enter a number less than 1000" << endl;
     cin >> n;
-    cout << "card(halfset(" << n << ") = " << comp(n) << endl;
+    cout << "card(halfset(" << n << ")) = " << comp(n) << endl;
 
     system("PAUSE");
     return 0;
